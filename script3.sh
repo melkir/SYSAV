@@ -1,4 +1,5 @@
 #!/bin/bash
+# script3.sh
 # menu interface to simple commands
 
 echo -e "\n COMMAND MENU\n"

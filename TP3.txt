@@ -1,15 +1,17 @@
-Exercice 1
+Fiche réponse TD3
+
+--- Exercice 1 ---
 1. 
-	Nom de l'OS : lsb-release -d 	
+	Nom de l'OS : lsb_release -d 	
 	Version de linux : uname -o	
 	Version du noyau : uname -mrs
 2. hostname
-3. echo "$USER" # ou whoami
+3. echo $USER # ou whoami
 4. cal 1 2018
 5. date +%d%m%Y
 6. pwd
 
-Exercice 2
+--- Exercice 2 ---
 1. mkdir TP3
 2. mkdir TP3/TEST
 3. cd TP3
@@ -53,7 +55,7 @@ Exercice 2
 34. Non car le fichier est en lecture seule pour "other", il faudrait que je sois le propriétaire du fichier pour avoir accès au fichier en écriture.
 35. rm ~/abc.txt
 
-Exercice 3
+--- Exercice 3 ---
 1. echo "Bonjour et bienvenue $USER"
 2. read var
 3. export var

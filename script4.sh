@@ -1,4 +1,5 @@
 #!/bin/bash
+# script4.sh
 # menu interface with numbers
 
 echo -e "\n COMMAND MENU\n"

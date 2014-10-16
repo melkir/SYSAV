@@ -1,7 +1,8 @@
 #!/bin/bash
+# script5.sh
 # script qui prend comme argument un fichier et transforme toutes les lettres de son contenu en majuscules.
 
-if [[ $# != 1 ]]; then
+if [ $# != 1 ]; then
     echo "Nombre d'arguments incorrect"
     exit 1
 fi

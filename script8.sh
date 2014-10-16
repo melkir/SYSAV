@@ -6,6 +6,7 @@ function Usage {
     exit 1
 }
 
+# Verification des arguments
 if [ $# = 0 ]; then Usage; fi
 
 echo "Voulez-vous créer une archive"
