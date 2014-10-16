@@ -1,10 +1,10 @@
 Exercice 1
 1. 
 	Nom de l'OS : lsb-release -d 	
-	Version de linux : uname -O 	
+	Version de linux : uname -o	
 	Version du noyau : uname -mrs
 2. hostname
-3. echo "$USER"; whoami
+3. echo "$USER" # ou whoami
 4. cal 1 2018
 5. date +%d%m%Y
 6. pwd

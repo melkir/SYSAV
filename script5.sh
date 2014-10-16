@@ -1,5 +1,5 @@
 #!/bin/bash
-# script qui prend comme argument un fichier et transforme tous les lettres de son contenu en majuscules.
+# script qui prend comme argument un fichier et transforme toutes les lettres de son contenu en majuscules.
 
 if [[ $# != 1 ]]; then
     echo "Nombre d'arguments incorrect"
