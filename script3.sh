@@ -2,6 +2,7 @@
 # script3.sh
 # menu interface to simple commands
 
+# Affichage du menu
 echo -e "\n COMMAND MENU\n"
 echo " a. Current date and time"
 echo " b. Users currently logged in"
@@ -11,6 +12,7 @@ echo -n "Enter a, b, c, or d: "
 read answer
 echo
 
+# Description des actions du menu
 case "$answer" in
 a)
     date

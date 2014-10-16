@@ -2,7 +2,7 @@
 # script7.sh
 # Copie de fichier
 
-# Affichage de l'utilisation du script
+# Fonction d'affichage de l'aide pour l'utilisation du script
 function Usage {
     echo "Usage: $0 <filesrc> <filedst>" 1>&2
     exit 1
